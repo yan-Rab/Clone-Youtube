@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 padding-top: 25px;
 padding-right: 10px;
 padding-left: ${props => props.visible ? '260px' : '85px' };

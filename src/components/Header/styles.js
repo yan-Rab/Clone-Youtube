@@ -16,6 +16,14 @@ width: 100%;
 position: fixed;
 align-items: center;
 padding: 8px 10px 8px 16px;
+
+@media(max-width: 472px){
+  padding: 8px 10px 8px 10px;
+}
+
+@media(max-width: 370px){
+  padding: 8px 4px;
+}
 background: var(--secondary);
 justify-content: space-between;
 `
@@ -71,6 +79,10 @@ width: 98px;
 margin-left: 16px;
 margin-right: 10px;
 height: 28px;
+
+@media(max-width: 422px){
+  margin-left: 4px;
+}
 `
 export const SearchWrapper = styled.div`
 display: flex;
@@ -166,6 +178,11 @@ padding: 0 20px;
     margin-left: 17px;
   }
 }
+
+@media(max-width: 400px){
+  padding: 0 6px 0 0px;
+}
+
 `
 
 const iconCSS = css`
@@ -194,7 +211,13 @@ height: 16px;
 `
 export const BellIcon = styled(Bell)`
 ${iconCSS}
+display: flex;
 fill: var(--white);
+
+@media(max-width: 428px){
+  display: none;
+}
+
 `
 export const PersonIcon = styled(PersonCircle)`
 width: 30px;

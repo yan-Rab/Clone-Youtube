@@ -51,6 +51,7 @@ const Header = ({menuBarBiggestVisible,setMenuBarBiggestVisible}) => {
         <VideoIcon title = 'Criar' />
         <AppsIcon title = 'Aplicativos do youtube'/>
         <BellIcon title = 'Notificações' />
+       
         <PersonIcon />
       </ActionsIcons>
     </Container>

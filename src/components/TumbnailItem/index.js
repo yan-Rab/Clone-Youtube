@@ -18,10 +18,16 @@ const TumbnailItem = () => {
         <Avatar />
 
         <Infors>
-          <strong>Título</strong>
-          <p>Canal</p>
-          <p>40 mil visualizações <Dot /></p>
-          <p>há 4 meses</p>
+          <strong>Título do vídeo</strong>
+          <p>Canal verificado</p>
+
+          <span>
+            <span>40 mil visualizações</span> 
+            <Dot />
+            <span>há 2 dias</span>
+          </span>
+
+          
         </Infors>
         
       </VideoData>

@@ -19,7 +19,7 @@ const Tumbnails = ({menuBarBiggestVisible}) => {
 
       <TumbnailItem />
       <TumbnailItem />
-      <TumbnailItem />
+    
     </Container>
   )
 }
